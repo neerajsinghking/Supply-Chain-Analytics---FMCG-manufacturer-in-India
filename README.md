@@ -31,7 +31,7 @@ Management speculated that essential products were not being delivered reliably,
 
 ## 📂 Project Structure
 
-![Data Models](images/Data Models.png)
+![Data Models](images/models.png)
 
 ---
 
