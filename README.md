@@ -8,31 +8,20 @@ AtliQ Mart, a growing FMCG manufacturer in India, is facing service level issues
 
 Management speculated that essential products were not being delivered reliably, leading to poor customer service. The objective is to monitor these service levels swiftly to fix issues before expanding operations to other Tier 1 cities.
 
+## 📊 Dashboard Preview
+
+![Campaign Dashboard](images/1.png)
+
 ## 🛠️ Technical Implementation (DAX & Modeling)
 
-* 
 **Data Modeling:** Developed a Star Schema connecting Fact tables (`fact_order_lines`, `fact_orders_aggregate`) with Dimension tables (`dim_customers`, `dim_products`, `dim_date`, `dim_targets_orders`).
 
-
-* 
 **Field Parameters:** Implemented a "Metric Switch" button to allow dynamic toggling between different KPIs (OTIF, OT, IF, LIFR, VOFR) in a single trend chart.
 
-
-* **KPIs Calculated:**
-* 
+**KPIs Calculated:** 
 **OTIF %:** Orders delivered both on time and in full.
-
-
-* 
 **LIFR (Line Fill Rate):** Percentage of order lines delivered in full quantity.
-
-
-* 
 **VOFR (Volume Fill Rate):** Ratio of total delivered quantity to requested quantity.
-
-
-
-
 
 ## 💡 Key Insights from Dashboard
 
@@ -42,19 +31,12 @@ Management speculated that essential products were not being delivered reliably,
 
 ## 📂 Project Structure
 
-* 
-`meta_data.txt`: Column descriptions and table relationships.
-
-
-* 
-`fact_orders_aggregate`: Aggregated order-level data for performance metrics.
-
-
-* 
-`dim_targets_orders`: Customer-specific targets for OT, IF, and OTIF.
+![Data Models](images/Data Models.png)
 
 ---
 
 ### ✍️ Author
 **[Neeraj Singh]**
 *Data Analyst | SQL | Power BI | Python*
+<a href="https://www.linkedin.com/in/neerajsinghdatanerd/" target="_blank">[LinkedIn Profile Link]</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjNhMjE5ZGMtMDU4OS00NzBiLTg1NzgtNTY2NDY4ZTQ0ZDA3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9">[Power BI Report Link]</a>
